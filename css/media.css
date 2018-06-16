@@ -1,0 +1,495 @@
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+ @media only screen and (min-width : 991px) and (max-width: 1201px) {
+
+
+  .logo-menu {
+  	margin-left: 5%;
+  }
+
+  .phone-m {
+  	margin-left: 0;
+  }
+  .tabs-header-menu {
+    padding-left: 10%;
+  }
+
+   .tabs-header {
+     width: 100%;
+   }
+
+   .social {
+   	justify-content: flex-start;
+    padding-left: 3%;
+   }
+
+   .logo {
+   padding-left: 5%;
+   }
+
+   .aminated-icon {
+    padding-right: 3%;
+   }
+
+   .phone-block {
+   	width: 100%;
+    align-self: flex-end;
+   }
+
+   .foofer-logo {
+   	padding-left: 7%;
+   	padding-right: 7%;
+   	padding-top: 5%;
+  }
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+
+  .menu {
+    width: 100vw;
+    left: -100vw;
+  }
+
+  .menu_active {
+    left: 0;
+  }
+
+  .tabs-menu {
+    margin-top: 10%;
+  }
+
+  .tab-line-menu,
+  .tabs-content-menu {
+    display: none;
+  }
+
+  .tabs-header-menu {
+   flex-direction: column;
+    text-align: left;
+    padding-left: 0;
+    padding-bottom: 10%;
+    justify-content: center;
+  }
+
+  .header-tab {
+    width: 100%;
+  }
+
+  .logo-menu {
+  margin-left: 5%;
+  }
+
+  .cross-link {
+  padding-right: 20%;
+  }
+
+  .social {
+  justify-content: center;
+  }
+
+  .social::after {
+  right: 30%;
+  left: 30%;
+  bottom: 10%;
+  font-size: 13px;
+  }
+
+  .clienst-list {
+    flex-wrap: wrap;
+  }
+
+  .dropdown:hover .dropdown-content {
+      display: none;
+  }
+
+  .dropdown:hover {
+  	margin-top: 0;
+  }
+
+  .tabs {
+    width: 100%;
+  }
+
+  .tabs-header {
+   flex-wrap: wrap;
+   width: 100%;
+   padding-top: 30%;
+   padding-bottom: 30%;
+  }
+
+  .tab-line {
+   display: none;
+  }
+
+  .tabs-content::before {
+   display: none;
+  }
+
+  .tabs-content {
+   display: none;
+  }
+
+  .logo {
+  padding-left: 5%;
+  }
+
+  .phone-icon {
+  display: none;
+  }
+
+  .pnone-number {
+  display: none;
+  }
+
+  .aminated-icon {
+   padding-right: 3%;
+  }
+
+  .header-center h1 {
+   font-size: 45px;
+   line-height: 1;
+  }
+
+  .header-center p {
+   width: 100%;
+  }
+
+  .services {
+  padding-bottom: 0;
+  }
+
+  .services .special {
+   padding-bottom: 10%;
+  }
+
+  .projects {
+  padding-top: 5%;;
+  }
+
+  .show-projects .all-projects {
+   margin-bottom: 40px;
+  }
+
+  .project-info p {
+   margin-bottom: 7%;
+  }
+
+  .projects-image {
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+
+  .com-center h2 {
+  line-height: 1.4;
+  }
+
+  .com-center p {
+    width: 100%;
+  }
+
+  .footer-common {
+   flex-wrap: wrap;
+   justify-content: center;
+   flex-direction: column-reverse;
+  }
+
+  .footer-menu, .footer-submenu {
+    display: none;
+  }
+
+  .footer-contacts {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone-block {
+    align-self: center;
+  }
+
+
+}
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+  .menu {
+    width: 100vw;
+    left: -100vw;
+  }
+
+  .menu_active {
+    left: 0;
+  }
+
+  .tabs-menu {
+  	margin-top: 10%;
+  }
+
+  .tab-line-menu,
+  .tabs-content-menu {
+    display: none;
+  }
+
+  .tabs-header-menu {
+   flex-direction: column;
+    text-align: left;
+    padding-left: 0;
+    padding-bottom: 18%;
+    justify-content: center;
+  }
+
+  .header-tab {
+    width: 100%;
+  }
+
+
+  .logo-menu {
+    margin-left: 5%;
+  }
+
+  .cross-link {
+    padding-right: 20%;
+  }
+
+  .social {
+   justify-content: center;
+  }
+
+  .social::after {
+  	right: 30%;
+    left: 30%;
+  	bottom: 11%;
+  	font-size: 13px;
+  }
+
+  .clienst-list {
+    flex-wrap: wrap;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+
+  .dropdown:hover {
+  	margin-top: 0;
+  }
+
+  .tabs {
+    width: 100%;
+  }
+
+ .tabs-header {
+   flex-wrap: wrap;
+   width: 100%;
+   height: 500px;
+ }
+
+ .tab-line {
+   display: none;
+ }
+
+ .tabs-content::before {
+   display: none;
+ }
+
+ .tabs-content {
+   display: none;
+ }
+
+ .logo {
+ 	padding-left: 5px;
+ }
+
+ .phone-icon {
+ 	display: none;
+ }
+
+ .pnone-number {
+  display: none;
+ }
+
+ .aminated-icon {
+   padding-right: 5px;
+ }
+
+ .header-center h1 {
+   font-size: 45px;
+   line-height: 1;
+ }
+
+ .header-center p {
+   width: 100%;
+ }
+
+ .services {
+ 	padding-bottom: 0;
+ }
+
+ .services p,
+ .show-projects p,
+ .clients p {
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+ }
+
+ .services .special {
+   text-align: center;
+   padding-bottom: 10%;
+ }
+ .special .show-all {
+   text-align: center;
+ }
+
+ .projects {
+ 	padding-top: 5%;;
+ }
+
+ .show-projects {
+   display: flex;
+   flex-direction: column-reverse;
+ }
+
+ .show-projects .all-projects {
+   text-align: center;
+   margin-bottom: 40px;
+ }
+
+ .project-info h2 {
+ 	text-align: center;
+ }
+
+ .project-info p {
+   text-align: center;
+   margin-bottom: 7%;
+   padding-left: 0;
+   margin-left: 0;
+ }
+
+ .projects-image {
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+  .com-center h2 {
+  	line-height: 1.4;
+  }
+
+  .com-center p {
+    width: 100%;
+  }
+
+ .footer-common {
+   flex-wrap: wrap;
+   justify-content: center;
+   flex-direction: column-reverse;
+ }
+
+  .footer-menu, .footer-submenu {
+    display: none;
+  }
+
+  .footer-contacts {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone-block {
+    align-self: center;
+  }
+
+
+}
+
+@media only screen and (max-width : 675px) {
+    .phone-m {
+     margin-left: 0;
+   }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 490px) {
+
+  .logo2-link, .phone-m {
+    display: none;
+  }
+
+  .aminated-icon {
+    margin-right: 7%;
+  }
+
+  .flex-buttons {
+  	display: flex;
+  	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service .btn-one {
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+
+
+   .service .btn-one::after {
+     display: none;
+   }
+
+   .portfolio .btn-two:after {
+     display: none;
+   }
+
+  .clienst-list {
+    justify-content: center;
+  }
+  
+  .address {
+    text-align: center;
+  }
+
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 350px) {
+
+  .logo-link {
+    display: none;
+  }
+
+  .social::after {
+  	bottom: 7%;
+  }
+
+  .header-center h1 {
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .aminated-icon {
+    margin-right: 15%;
+  }
+
+  .address {
+  	text-align: center;
+  }
+
+  .flex-buttons .btn {
+  	font-size: 12px;
+  	line-height: 1;
+  }
+
+  .service .btn-one {
+    padding: 15px 72px 15px 82px;
+  }
+
+}
